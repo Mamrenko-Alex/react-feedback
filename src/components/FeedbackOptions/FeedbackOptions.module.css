@@ -1,0 +1,48 @@
+.headers {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 30px;
+  width: 365px;
+}
+
+.action_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.good_button {
+  background-color: #4caf50;
+}
+
+.good_button:hover {
+  background-color: #45a049;
+}
+
+.neutral_button {
+  background-color: #ffd700;
+}
+
+.neutral_button:hover {
+  background-color: #e6be00;
+}
+
+.bad_button {
+  background-color: #ff6347;
+}
+
+.bad_button:hover {
+  background-color: #d24a38;
+}
